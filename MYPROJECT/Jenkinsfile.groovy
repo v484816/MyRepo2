@@ -6,7 +6,7 @@ pipeline {
             steps {
                 echo 'Building..'
                 // Get some code from a GitHub repository
-                git url: 'https://github.com/v484816/MyRepo2', branch: 'main'
+                git url: 'https://github.com/v484816/MyRepo2', branch: 'master'
                 
             }
         }
